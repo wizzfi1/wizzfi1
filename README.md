@@ -1,16 +1,13 @@
-## Hi there 👋
+# 👋 Hi, I'm Wisdom Shaibu | AZ-204 Certified Azure Developer  
 
-<!--
-**wizzfi1/wizzfi1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🌩 **Azure Skills**: Functions, Cosmos DB, App Services, Storage, Solutions, Security 
 
-Here are some ideas to get you started:
+🛠 **Projects**:  
+- [Serverless API with Azure Functions](link) *(Coming Soon!)*  
+- [Static Website on Azure Blob Storage](link) *(Coming Soon!)*  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📜 **Certification**: [Microsoft AZ-204] https://learn.microsoft.com/api/credentials/share/en-us/WisdomOjochegbeShaibu-3520/BD67A32C45C1DE83?sharingId=A8D4368BDF9889BB 
+
+📫 **Connect**: [LinkedIn] www.linkedin.com/in/wisdom-shaibu-tech
+
+ | [Email] shaibuwisdom@gmail.com 
