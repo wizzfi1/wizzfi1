@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Wisdom Shaibu | AZ-204 Certified Azure Developer  
+# 👋 Hi, I'm Wisdom Shaibu | Microsoft Certified: Azure Developer Associate  
 
 🌩 **Azure Skills**: Functions, Cosmos DB, App Services, Storage, Solutions, Security 
 
