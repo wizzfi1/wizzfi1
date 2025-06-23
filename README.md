@@ -16,7 +16,7 @@ I'm a passionate DevOps Engineer specializing in automating deployments, buildin
 - **Container Orchestration:** Kubernetes
 - **CI/CD:** Azure DevOps, GitHub Actions
 - **Version Control:** Git
-- **Programming:** C#, .NET
+- **Programming:** C#, .NET, Javascript
 
 ---
 
