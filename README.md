@@ -6,7 +6,7 @@
 
 ## 💼 About Me
 
-I'm a passionate DevOps Engineer specializing in automating deployments, building scalable cloud infrastructure, and streamlining development workflows. With a strong foundation in Microsoft Azure and Kubernetes, I thrive on creating reliable CI/CD pipelines and crafting solutions with C# and .NET.
+I'm a passionate DevOps Engineer specializing in automating deployments, building scalable cloud infrastructure, and streamlining development workflows. With a strong foundation in Microsoft Azure and Kubernetes, I thrive on creating reliable CI/CD pipelines and crafting solutions.
 
 ---
 
