@@ -24,7 +24,8 @@ I'm a passionate DevOps Engineer specializing in automating deployments, buildin
 
 - 🏅 Microsoft Certified Developer Associate
 - 🏅 Kubernetes and Cloud Native Associate (KCNA)
-
+- 🏅 Microsoft Certified : Azure Fundamentals
+- 🏅 Github Foundations by Github
 ---
 
 ## 🌐 Connect with Me
