@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Wisdom Shaibu!
 
-🚀 **DevOps Engineer | Cloud & Automation Enthusiast**
+🚀 **DevOps Engineer | Cloud & Automation Enthusiast | Backend Developer**
 
 ---
 
