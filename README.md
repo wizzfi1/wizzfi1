@@ -6,7 +6,7 @@
 
 ## 💡 About Me
 
-I'm a certified **Azure Developer** and **DevOps Engineer** with hands-on experience in designing production-grade CI/CD pipelines, automating infrastructure, and deploying containerized applications in the cloud.
+I'm a certified **Azure Developer** and **DevOps Engineer** with hands-on experience designing production-grade CI/CD pipelines, automating infrastructure, and deploying containerized applications in the cloud.
 
 My work blends tools like **Terraform**, **Ansible**, **Docker**, and **GitHub Actions** to create reliable, reproducible, and secure environments on **Azure** and **AWS**. I thrive at the intersection of development and operations — writing backend code, automating deployment, and securing APIs with role-based access.
 
@@ -27,17 +27,35 @@ Whether provisioning infrastructure with code or teaching computer fundamentals,
 
 ## 📦 Projects
 
-### 🔹 [Flask App with CI/CD & IaC on AWS](https://github.com/wizzfi1/Wisdom-Flask-Ansible)
-Terraform · Ansible · Docker · GitHub Actions · AWS EC2  
-→ A fully automated pipeline: `git push` → infrastructure spins up → app is deployed.
+### 🚀 [Wisdom DevOps Stack: Full CI/CD on AWS](https://github.com/wizzfi1/Wisdom-flask-ansible-nginx)
+> Terraform · Ansible · Docker · GitHub Actions · NGINX · Prometheus · Grafana · Slack · AWS EC2  
+A **production-grade DevOps pipeline** that spins up a complete stack — infra, app, monitoring, alerting, and SSL — all from a single `git push`.
 
-### 🔹 [Wisdom Job Board API](https://github.com/wizzfi1)
-Node.js · PostgreSQL · JWT · File Uploads  
-→ REST API with modular backend, role-based access, and secure uploads.
+🔧 Features:
+- Provision EC2 with Terraform
+- Deploy Dockerized Flask app via Ansible
+- CI/CD with GitHub Actions
+- NGINX reverse proxy with Let's Encrypt SSL
+- Real-time monitoring (Prometheus + Grafana)
+- Slack alerts for high CPU usage
 
-### 🔹 Azure AD User Reader  
-C# · Microsoft Graph API · Azure AD  
-→ Authenticates and retrieves users from an Azure tenant via OAuth 2.0.
+🔗 Live:  
+- App: [https://wizfi-app.duckdns.org](https://wizfi-app.duckdns.org)  
+- Grafana: [https://wizfi-grafana.duckdns.org](https://wizfi-grafana.duckdns.org)
+
+📸 Includes dashboards, alerts, diagrams, and system architecture.
+
+---
+
+### 🧰 [Wisdom Job Board API](https://github.com/wizzfi1)
+> Node.js · PostgreSQL · JWT · File Uploads  
+A secure REST API with modular architecture, token-based auth, and scalable file upload handling.
+
+---
+
+### 👥 Azure AD User Reader  
+> C# · Microsoft Graph API · Azure AD  
+Reads users from Azure Active Directory using secure OAuth 2.0 authentication — ideal for integrating user directories with internal tooling.
 
 ---
 
@@ -53,8 +71,6 @@ C# · Microsoft Graph API · Azure AD
 
 ## 🌱 Currently Exploring
 
-- Prometheus & Grafana for monitoring  
-- Let’s Encrypt & NGINX for reverse proxying  
 - Deployments with Kubernetes & Azure Container Apps  
 - Generative AI integrations into DevOps pipelines
 
@@ -68,4 +84,3 @@ C# · Microsoft Graph API · Azure AD
 ---
 
 > “I don’t just push code — I push infrastructure.” 🔧
-
