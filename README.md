@@ -27,6 +27,38 @@ Whether provisioning infrastructure with code or teaching computer fundamentals,
 
 ## 📦 Projects
 
+### 🚀 Production-Grade Kubernetes Microservices Platform  
+
+A complete **DevOps case study** demonstrating how to design, build, and deploy a **real-world microservices architecture** — from infrastructure automation to monitoring and CI/CD.  
+
+### 🔹 Key Highlights  
+- ✅ **8+ Microservices** (Frontend, Auth, User, Admin, Billing, Payments, Analytics, Notifications)  
+- ✅ **Kubernetes (K3s)** orchestration with **NGINX Ingress**  
+- ✅ **End-to-End SSL/TLS** via Let’s Encrypt  
+- ✅ **PostgreSQL with Persistent Volumes**  
+- ✅ **Monitoring & Alerting** (Prometheus, Grafana, Slack integration)  
+- ✅ **Infrastructure as Code** with **Terraform on AWS EC2**  
+- ✅ **Helm-based modular deployment** for scalability  
+- ✅ **CI/CD pipelines** powered by **GitHub Actions**  
+
+---
+
+### 🔹 Architecture  
+![Architecture Diagram](./docs/architecture.png)  
+
+---
+
+### 🔹 Live Monitoring Dashboards  
+
+| Grafana Dashboards | Alerts | Node Exporter | Kubernetes Cluster |  
+|--------------------|--------|---------------|--------------------|  
+| ![Dashboard](./docs/wizfi-dashboard.png) | ![Alerts](./docs/slkalerts.png) | ![Node Exporter](./docs/node-exporter-dash.png) | ![K8s Dash](./docs/kubernetes-dash.png) |  
+
+---
+
+📌 **Repo Link:** [Wizfi-Microservices](https://github.com/wizzfi1/Wizfi-Microservices)  
+
+
 ### 🚀 [Wisdom DevOps Stack: Full CI/CD on AWS](https://github.com/wizzfi1/Wisdom-flask-ansible-nginx)
 > Terraform · Ansible · Docker · GitHub Actions · NGINX · Prometheus · Grafana · Slack · AWS EC2  
 A **production-grade DevOps pipeline** that spins up a complete stack — infra, app, monitoring, alerting, and SSL — all from a single `git push`.
