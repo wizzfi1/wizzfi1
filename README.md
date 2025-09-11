@@ -41,22 +41,12 @@ A complete **DevOps case study** demonstrating how to design, build, and deploy 
 - ✅ **Helm-based modular deployment** for scalability  
 - ✅ **CI/CD pipelines** powered by **GitHub Actions**  
 
----
-
-### 🔹 Architecture  
-![Architecture Diagram](./docs/architecture.png)  
-
----
-
-### 🔹 Live Monitoring Dashboards  
-
-| Grafana Dashboards | Alerts | Node Exporter | Kubernetes Cluster |  
-|--------------------|--------|---------------|--------------------|  
-| ![Dashboard](./docs/wizfi-dashboard.png) | ![Alerts](./docs/slkalerts.png) | ![Node Exporter](./docs/node-exporter-dash.png) | ![K8s Dash](./docs/kubernetes-dash.png) |  
 
 ---
 
 📌 **Repo Link:** [Wizfi-Microservices](https://github.com/wizzfi1/Wizfi-Microservices)  
+
+📸 Includes dashboards, alerts, diagrams, and system architecture.
 
 
 ### 🚀 [Wisdom DevOps Stack: Full CI/CD on AWS](https://github.com/wizzfi1/Wisdom-flask-ansible-nginx)
