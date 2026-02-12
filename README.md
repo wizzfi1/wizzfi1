@@ -1,108 +1,188 @@
-# 👋 Hi, I'm Wisdom Shaibu!
+# 👋 Hi, I’m **Wisdom Shaibu**
 
-🚀 **DevOps Engineer | Azure Developer | Cloud-Native & Automation Specialist**
+🚀 **DevOps Engineer | Azure Developer | Cloud Infrastructure, DevSecOps & Automation**
 
----
+I’m a **DevOps Engineer** with hands-on experience designing, automating, and operating **secure, observable, production-grade cloud platforms**.
 
-## 💡 About Me
+I work across **AWS and Microsoft Azure**, building **CI/CD pipelines**, **Kubernetes-based platforms**, and **Infrastructure as Code** that reduce operational risk, eliminate manual deployments, and improve service reliability.
 
-I'm a certified **Azure Developer** and **DevOps Engineer** with hands-on experience designing production-grade CI/CD pipelines, automating infrastructure, and deploying containerized applications in the cloud.
+My engineering approach is **risk-aware and audit-conscious**, shaped by experience in **regulated financial operations**, and applied to modern **cloud-native and DevSecOps systems**.
 
-My work blends tools like **Terraform**, **Ansible**, **Docker**, and **GitHub Actions** to create reliable, reproducible, and secure environments on **Azure** and **AWS**. I thrive at the intersection of development and operations — writing backend code, automating deployment, and securing APIs with role-based access.
-
-Whether provisioning infrastructure with code or teaching computer fundamentals, I'm all about **bridging gaps between Dev, Sec, and Ops**.
+> *I don’t just deploy applications — I engineer delivery systems that can be trusted in production.*
 
 ---
 
-## 🛠️ Core Skills
+## 🧠 Engineering Focus & Strengths
 
-- **CI/CD & DevOps Tools:** GitHub Actions · Azure DevOps · Docker · Kubernetes · Terraform · Ansible  
-- **Cloud Platforms:** Microsoft Azure · AWS  
-- **Programming & Automation:** C# · Python · Node.js · Bash · YAML · JavaScript  
-- **Infra as Code:** Terraform · Ansible · GitHub Actions  
-- **Security & Networking:** JWT · RBAC · Azure API Management · CCNA  
-- **Practices:** Infrastructure as Code · Containerization · Monitoring · Agile Collaboration
-
----
-
-## 📦 Projects
-
-### 🚀 Production-Grade Kubernetes Microservices Platform  
-
-A complete **DevOps case study** demonstrating how to design, build, and deploy a **real-world microservices architecture** — from infrastructure automation to monitoring and CI/CD.  
-
-### 🔹 Key Highlights  
-- ✅ **8+ Microservices** (Frontend, Auth, User, Admin, Billing, Payments, Analytics, Notifications)  
-- ✅ **Kubernetes (K3s)** orchestration with **NGINX Ingress**  
-- ✅ **End-to-End SSL/TLS** via Let’s Encrypt  
-- ✅ **PostgreSQL with Persistent Volumes**  
-- ✅ **Monitoring & Alerting** (Prometheus, Grafana, Slack integration)  
-- ✅ **Infrastructure as Code** with **Terraform on AWS EC2**  
-- ✅ **Helm-based modular deployment** for scalability  
-- ✅ **CI/CD pipelines** powered by **GitHub Actions**  
-
+- End-to-end **CI/CD pipeline design** (build → test → security scan → deploy)
+- **Infrastructure as Code** with reproducibility and policy enforcement
+- **Kubernetes platform operations** (K3s / AKS)
+- **DevSecOps**: shifting security left into pipelines
+- **Observability-first systems** with metrics, alerts, and release tracking
+- Production troubleshooting, runbooks, and operational ownership
 
 ---
 
-📌 **Repo Link:** [Wizfi-Microservices](https://github.com/wizzfi1/Wizfi-Microservices)  
+## 🛠️ Core Technical Skills
 
-📸 Includes dashboards, alerts, diagrams, and system architecture.
+### ☁️ Cloud & DevOps
+AWS · Microsoft Azure · Kubernetes · Docker · Terraform · Ansible · GitHub Actions ·  
+NGINX · SSL / Let’s Encrypt · Render · Prometheus · Grafana · Alertmanager ·  
+Sentry · Slack Webhooks
 
+### 🔁 CI/CD & Infrastructure as Code
+End-to-End Pipeline Design · GitOps · Immutable Infrastructure ·  
+Secrets Management (Externalized) · SARIF Reporting ·  
+Zero-Trust Deployments · Multi-Environment Automation · Health Checks
 
-### 🚀 [Wisdom DevOps Stack: Full CI/CD on AWS](https://github.com/wizzfi1/Wisdom-flask-ansible-nginx)
-> Terraform · Ansible · Docker · GitHub Actions · NGINX · Prometheus · Grafana · Slack · AWS EC2  
-A **production-grade DevOps pipeline** that spins up a complete stack — infra, app, monitoring, alerting, and SSL — all from a single `git push`.
+### 🔐 Security & Compliance
+Secrets Scanning · Static Analysis (SAST) · IaC Policy Enforcement ·  
+RBAC · JWT · Network Policies · Non-Root Containers · Hardened Dockerfiles
 
-🔧 Features:
-- Provision EC2 with Terraform
-- Deploy Dockerized Flask app via Ansible
-- CI/CD with GitHub Actions
-- NGINX reverse proxy with Let's Encrypt SSL
-- Real-time monitoring (Prometheus + Grafana)
-- Slack alerts for high CPU usage
+### 📊 Observability & Monitoring
+Application & Infrastructure Metrics · Latency & Error Rate Tracking ·  
+Real-Time Alerting · Release Tracking (Sentry) ·  
+Log Correlation · Health Endpoint Validation
 
-🔗 Live:  
-- App: [https://wizfi-app.duckdns.org](https://wizfi-app.duckdns.org)  
-- Grafana: [https://wizfi-grafana.duckdns.org](https://wizfi-grafana.duckdns.org)
+### 💻 Programming & Automation
+Node.js (Express) · Python (Flask) · C# · Bash · YAML · JSON · Git · SQL · REST APIs
 
-📸 Includes dashboards, alerts, diagrams, and system architecture.
-
----
-
-### 🧰 [Wisdom Job Board API](https://github.com/wizzfi1)
-> Node.js · PostgreSQL · JWT · File Uploads  
-A secure REST API with modular architecture, token-based auth, and scalable file upload handling.
-
----
-
-### 👥 Azure AD User Reader  
-> C# · Microsoft Graph API · Azure AD  
-Reads users from Azure Active Directory using secure OAuth 2.0 authentication — ideal for integrating user directories with internal tooling.
+### 🤖 AI & MLOps (Foundational)
+Azure AI Services (Vision, Language, Speech, Decision APIs) ·  
+Azure OpenAI & Generative AI Integration · NLP Pipelines ·  
+Computer Vision (OCR, Image Analysis) ·  
+Prompt Design · AI Solution Monitoring Concepts
 
 ---
 
-## 📜 Certifications
+## 🚀 Featured Projects
 
-- Microsoft Certified: Azure Developer Associate  
-- Kubernetes and Cloud Native Associate (KCNA)  
-- Cisco Certified Network Associate (CCNA)  
-- Microsoft Certified: Azure Fundamentals  
-- GitHub Foundations · C# Foundations
+### 🔹 FullStack DevSecOps Demo
+📦 **Policy-driven CI/CD & Kubernetes deployment pipeline**
 
----
+**Tech:** GitHub Actions · Docker · Helm · K3s · Prometheus · Grafana · Sentry · Slack
 
-## 🌱 Currently Exploring
+- Designed and owned a **fully automated CI/CD pipeline**
+- Embedded **SAST, secrets detection, and IaC validation** into pipeline gates
+- Hardened container images (non-root, minimal base images)
+- Implemented metrics-based observability with alert thresholds
+- Standardized deployments for **traceability and repeatability**
 
-- Deployments with Kubernetes & Azure Container Apps  
-- Generative AI integrations into DevOps pipelines
+**Operational Outcome:**  
+Replaced manual releases with policy-driven automation, improving audit readiness, visibility, and failure detection.
 
----
-
-## 🌐 Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-wisdom--shaibu--tech-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/wisdom-shaibu-tech)  
-[![GitHub](https://img.shields.io/badge/GitHub-wizzfi1-black?style=flat-square&logo=github)](https://github.com/wizzfi1)
+🔗 Repo: [https://github.com/wizzfi1/FullStack_DevSec]
 
 ---
 
-> “I don’t just push code — I push infrastructure.” 🔧
+### 🔹 WizFi Microservices Platform
+📦 **Production-grade Kubernetes microservices platform**
+
+**Tech:** K3s · Terraform · Helm · AWS EC2 · PostgreSQL · Prometheus · Grafana · Slack
+
+- Provisioned infrastructure using **Terraform**
+- Deployed and operated **8+ independently deployable microservices**
+- Automated HTTPS with **NGINX Ingress + Let’s Encrypt**
+- Standardized deployments using **Helm charts**
+- Implemented proactive monitoring and alerting
+
+**Operational Outcome:**  
+End-to-end platform ownership from infrastructure provisioning through deployment, security, and monitoring.
+
+🔗 Repo: https://github.com/wizzfi1/Wizfi-Microservices
+
+---
+
+### 🔹 End-to-End DevOps Pipeline (Flask App)
+⚙️ **Zero-touch infrastructure + application deployment**
+
+**Tech:** Terraform · Ansible · Docker · GitHub Actions · AWS EC2 · Prometheus · Grafana · Slack
+
+- Automated infrastructure provisioning and configuration
+- CI/CD pipelines triggered directly from source control
+- Integrated health checks and runtime alerting
+- Reduced configuration drift and manual intervention
+
+🔗 Repo: https://github.com/wizzfi1/Wisdom-flask-ansible-nginx
+
+---
+
+### 🔹 Wisdom Job Board API
+🔐 **DevOps-ready REST API**
+
+**Tech:** Node.js · Express · PostgreSQL · JWT
+
+- Modular backend architecture with Sequelize ORM
+- JWT authentication and role-based access control
+- Secure file uploads
+- Designed for containerized deployment
+
+---
+
+### 🔹 Azure AD User Reader
+🔑 **Enterprise identity integration**
+
+**Tech:** C# · Microsoft Graph API · Azure AD
+
+- Secure OAuth 2.0 client credentials flow
+- Reads and displays Azure AD user metadata
+- Built for non-interactive, service-to-service access
+
+---
+
+## 💼 Professional Experience
+
+**Graduate DevOps Engineering Intern — Cognetitis Consulting Ltd** (Remote)  
+*Aug 2025 – Present*  
+- Supported CI/CD automation and cloud infrastructure tasks  
+- Assisted with deployment workflows and operational troubleshooting  
+- Evaluated through structured technical reviews
+
+**Azure Developer Intern — Teknowledge** (Remote)  
+*Jan 2025 – Aug 2025*  
+- Built and deployed microservices using **Azure Functions** and **AKS**  
+- Implemented CI/CD pipelines with **Azure DevOps**  
+- Enforced RBAC and API security using **Azure API Management**
+
+**Universal Teller — Sterling Bank**  
+*May 2023 – Oct 2025*  
+- Worked in high-volume financial systems with strict audit requirements  
+- Improved reconciliation workflows and reduced errors  
+- Collaborated with IT teams on system issue resolution
+
+**Computer Studies Teacher (NYSC)** — Shiloh Hill College  
+*Nov 2021 – Nov 2022*  
+- Taught Linux, networking, and scripting fundamentals  
+- Achieved a 95% student pass rate
+
+---
+
+## 🎓 Education & Certifications
+
+**B.Eng. Computer Engineering** — Federal University of Technology, Minna  
+Second Class Upper
+
+**Certifications**
+- Microsoft Certified: **Azure AI Engineer Associate**
+- Microsoft Certified: **Azure Developer Associate**
+- Kubernetes and Cloud Native Associate (KCNA)
+- Microsoft Certified: Azure Fundamentals
+- Azure AI Fundamentals
+- GitHub Foundations
+- Foundational C# with Microsoft
+- Cisco Certified Network Associate (CCNA)
+
+---
+
+## 🌱 Current Interests
+
+Cloud Infrastructure · Automation · Monitoring · DevSecOps ·  
+Open Source · Platform Engineering · Generative AI in DevOps
+
+---
+
+## 🌍 Connect With Me
+
+- 🔗 LinkedIn: https://linkedin.com/in/wisdom-shaibu-tech  
+
+> *“I don’t just push code — I design systems that survive production.”*
