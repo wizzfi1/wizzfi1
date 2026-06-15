@@ -105,7 +105,7 @@ Production backend for real-time order tracking with a full onboarding and appro
 ## 🎓 Certifications
 
 - Microsoft Certified: **Azure AI Engineer Associate** (2026)
-- Microsoft Certified: **Identity and Access Administrator Associate** (2026) — SC-300
+- Microsoft Certified: **Identity and Access Administrator Associate** (2026)
 - Microsoft Certified: **Azure Developer Associate** (2025)
 - **Kubernetes and Cloud Native Associate** — KCNA (2025)
 - Microsoft Certified: Azure AI Fundamentals (2025)
