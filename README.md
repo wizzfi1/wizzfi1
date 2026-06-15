@@ -1,4 +1,4 @@
-# Hey, I'm Wisdom Shaibu 👋
+# Hey, I'm Wisdom Ojochegbe Shaibu 👋
 
 I started out in cloud infrastructure — provisioning Kubernetes clusters, hardening CI/CD pipelines, writing Terraform for reproducible environments. Then AI agents arrived and changed what backend engineering means. Now I sit at the intersection of both: building agent-native systems and the production infrastructure that makes them reliable.
 
