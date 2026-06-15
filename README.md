@@ -12,7 +12,7 @@ That dual background isn't accidental. The discipline of DevOps — observabilit
 
 ## 🧭 What I'm Working On
 
-**AI Engineering Intern (Agent-Native) · VettedAI** *(Jan 2026 – Present)*  
+**AI Engineer (Agent-Native) · VettedAI** *(Jan 2026 – Present)*  
 Working inside an agent-first engineering culture where AI agents generate and review most of the code. My job is to make that safe and sustainable — reviewing agent output for logic correctness and security impact, designing guardrails to prevent regressions, and shipping backend improvements through structured agent workflows.
 
 **Backend Engineer · ArchSaint Nexus** *(Jan 2026 – Present)*  
