@@ -1,188 +1,131 @@
-# 👋 Hi, I’m **Wisdom Shaibu**
+# Hey, I'm Wisdom Shaibu 👋
 
-🚀 **DevOps Engineer | Azure Developer | Cloud Infrastructure, DevSecOps & Automation**
+I started out in cloud infrastructure — provisioning Kubernetes clusters, hardening CI/CD pipelines, writing Terraform for reproducible environments. Then AI agents arrived and changed what backend engineering means. Now I sit at the intersection of both: building agent-native systems and the production infrastructure that makes them reliable.
 
-I’m a **DevOps Engineer** with hands-on experience designing, automating, and operating **secure, observable, production-grade cloud platforms**.
+That dual background isn't accidental. The discipline of DevOps — observability, guardrails, deployment safety — turns out to be exactly what AI-assisted development needs most.
 
-I work across **AWS and Microsoft Azure**, building **CI/CD pipelines**, **Kubernetes-based platforms**, and **Infrastructure as Code** that reduce operational risk, eliminate manual deployments, and improve service reliability.
+> *I build backends that hold up, and agents that don't go rogue.*
 
-My engineering approach is **risk-aware and audit-conscious**, shaped by experience in **regulated financial operations**, and applied to modern **cloud-native and DevSecOps systems**.
-
-> *I don’t just deploy applications — I engineer delivery systems that can be trusted in production.*
+🌐 **Portfolio:** [wisdom-portfolio-rho.vercel.app](https://wisdom-portfolio-rho.vercel.app)
 
 ---
 
-## 🧠 Engineering Focus & Strengths
+## 🧭 What I'm Working On
 
-- End-to-end **CI/CD pipeline design** (build → test → security scan → deploy)
-- **Infrastructure as Code** with reproducibility and policy enforcement
-- **Kubernetes platform operations** (K3s / AKS)
-- **DevSecOps**: shifting security left into pipelines
-- **Observability-first systems** with metrics, alerts, and release tracking
-- Production troubleshooting, runbooks, and operational ownership
+**AI Engineering Intern (Agent-Native) · VettedAI** *(Jan 2026 – Present)*  
+Working inside an agent-first engineering culture where AI agents generate and review most of the code. My job is to make that safe and sustainable — reviewing agent output for logic correctness and security impact, designing guardrails to prevent regressions, and shipping backend improvements through structured agent workflows.
 
----
-
-## 🛠️ Core Technical Skills
-
-### ☁️ Cloud & DevOps
-AWS · Microsoft Azure · Kubernetes · Docker · Terraform · Ansible · GitHub Actions ·  
-NGINX · SSL / Let’s Encrypt · Render · Prometheus · Grafana · Alertmanager ·  
-Sentry · Slack Webhooks
-
-### 🔁 CI/CD & Infrastructure as Code
-End-to-End Pipeline Design · GitOps · Immutable Infrastructure ·  
-Secrets Management (Externalized) · SARIF Reporting ·  
-Zero-Trust Deployments · Multi-Environment Automation · Health Checks
-
-### 🔐 Security & Compliance
-Secrets Scanning · Static Analysis (SAST) · IaC Policy Enforcement ·  
-RBAC · JWT · Network Policies · Non-Root Containers · Hardened Dockerfiles
-
-### 📊 Observability & Monitoring
-Application & Infrastructure Metrics · Latency & Error Rate Tracking ·  
-Real-Time Alerting · Release Tracking (Sentry) ·  
-Log Correlation · Health Endpoint Validation
-
-### 💻 Programming & Automation
-Node.js (Express) · Python (Flask) · C# · Bash · YAML · JSON · Git · SQL · REST APIs
-
-### 🤖 AI & MLOps (Foundational)
-Azure AI Services (Vision, Language, Speech, Decision APIs) ·  
-Azure OpenAI & Generative AI Integration · NLP Pipelines ·  
-Computer Vision (OCR, Image Analysis) ·  
-Prompt Design · AI Solution Monitoring Concepts
+**Backend Engineer · ArchSaint Nexus** *(Jan 2026 – Present)*  
+Built the production backend for a pickup logistics platform: full shipment lifecycle management, real-time tracking via WebSockets, JWT + RBAC auth, OTP verification backed by Redis, and an async email queue with BullMQ. TypeScript strict mode throughout, Jest + MongoDB Memory Server for business logic coverage, GitHub Actions for CI.
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🔹 FullStack DevSecOps Demo
-📦 **Policy-driven CI/CD & Kubernetes deployment pipeline**
+### ArchSaint Nexus — Logistics API
+*The backend that actually ships (pun intended)*
 
-**Tech:** GitHub Actions · Docker · Helm · K3s · Prometheus · Grafana · Sentry · Slack
+A production-ready logistics API built for real operational load.
 
-- Designed and owned a **fully automated CI/CD pipeline**
-- Embedded **SAST, secrets detection, and IaC validation** into pipeline gates
-- Hardened container images (non-root, minimal base images)
-- Implemented metrics-based observability with alert thresholds
-- Standardized deployments for **traceability and repeatability**
+**Stack:** Node.js · TypeScript · MongoDB · Redis · BullMQ · WebSockets · JWT · GitHub Actions
 
-**Operational Outcome:**  
-Replaced manual releases with policy-driven automation, improving audit readiness, visibility, and failure detection.
+- Shipment lifecycle management with event-driven architecture (Node EventEmitter)
+- Real-time driver/order tracking via WebSocket
+- Role-based access control across four actor types: customer, business, admin, driver
+- Async email notifications decoupled from the request path via BullMQ workers
+- OTP verification flow backed by Redis with TTL-controlled expiry
+- Full CI pipeline with Jest + MongoDB Memory Server
 
-🔗 Repo: [https://github.com/wizzfi1/FullStack_DevSec]
-
----
-
-### 🔹 WizFi Microservices Platform
-📦 **Production-grade Kubernetes microservices platform**
-
-**Tech:** K3s · Terraform · Helm · AWS EC2 · PostgreSQL · Prometheus · Grafana · Slack
-
-- Provisioned infrastructure using **Terraform**
-- Deployed and operated **8+ independently deployable microservices**
-- Automated HTTPS with **NGINX Ingress + Let’s Encrypt**
-- Standardized deployments using **Helm charts**
-- Implemented proactive monitoring and alerting
-
-**Operational Outcome:**  
-End-to-end platform ownership from infrastructure provisioning through deployment, security, and monitoring.
-
-🔗 Repo: https://github.com/wizzfi1/Wizfi-Microservices
+🔗 [github.com/wizzfi1/archsaint-nexus](https://github.com/wizzfi1/archsaint-nexus)
 
 ---
 
-### 🔹 End-to-End DevOps Pipeline (Flask App)
-⚙️ **Zero-touch infrastructure + application deployment**
+### WizFi Microservices Platform
+*8+ services, one coherent platform*
 
-**Tech:** Terraform · Ansible · Docker · GitHub Actions · AWS EC2 · Prometheus · Grafana · Slack
+End-to-end ownership: from AWS infrastructure to Kubernetes deployments to production monitoring.
 
-- Automated infrastructure provisioning and configuration
-- CI/CD pipelines triggered directly from source control
-- Integrated health checks and runtime alerting
-- Reduced configuration drift and manual intervention
+**Stack:** K3s · Terraform · Helm · AWS EC2 · PostgreSQL · Prometheus · Grafana · NGINX
 
-🔗 Repo: https://github.com/wizzfi1/Wisdom-flask-ansible-nginx
+- Provisioned AWS infrastructure from scratch with Terraform
+- Deployed 8+ independently deployable Node.js and Python services on K3s
+- Automated HTTPS with NGINX Ingress + Let's Encrypt
+- Prometheus + Grafana for live infrastructure and application metrics
+- Helm charts for version-controlled, repeatable releases
 
----
-
-### 🔹 Wisdom Job Board API
-🔐 **DevOps-ready REST API**
-
-**Tech:** Node.js · Express · PostgreSQL · JWT
-
-- Modular backend architecture with Sequelize ORM
-- JWT authentication and role-based access control
-- Secure file uploads
-- Designed for containerized deployment
+🔗 [github.com/wizzfi1/Wizfi-Microservices](https://github.com/wizzfi1/Wizfi-Microservices)
 
 ---
 
-### 🔹 Azure AD User Reader
-🔑 **Enterprise identity integration**
+### FullStack DevSecOps Demo
+*Security is not a final step*
 
-**Tech:** C# · Microsoft Graph API · Azure AD
+A pipeline built around the idea that security belongs in the commit, not the postmortem.
 
-- Secure OAuth 2.0 client credentials flow
-- Reads and displays Azure AD user metadata
-- Built for non-interactive, service-to-service access
+**Stack:** GitHub Actions · Docker · Helm · K3s · Prometheus · Grafana · Sentry
 
----
+- SAST scanning, secrets detection, and IaC validation gated into every pipeline run
+- Hardened container images: non-root execution, minimal base layers, vulnerability scanning
+- Metrics-based observability with alert thresholds and Sentry release tracking
+- Zero manual releases — every deployment is policy-driven and auditable
 
-## 💼 Professional Experience
-
-**Graduate DevOps Engineering Intern — Cognetitis Consulting Ltd** (Remote)  
-*Aug 2025 – Present*  
-- Supported CI/CD automation and cloud infrastructure tasks  
-- Assisted with deployment workflows and operational troubleshooting  
-- Evaluated through structured technical reviews
-
-**Azure Developer Intern — Teknowledge** (Remote)  
-*Jan 2025 – Aug 2025*  
-- Built and deployed microservices using **Azure Functions** and **AKS**  
-- Implemented CI/CD pipelines with **Azure DevOps**  
-- Enforced RBAC and API security using **Azure API Management**
-
-**Universal Teller — Sterling Bank**  
-*May 2023 – Oct 2025*  
-- Worked in high-volume financial systems with strict audit requirements  
-- Improved reconciliation workflows and reduced errors  
-- Collaborated with IT teams on system issue resolution
-
-**Computer Studies Teacher (NYSC)** — Shiloh Hill College  
-*Nov 2021 – Nov 2022*  
-- Taught Linux, networking, and scripting fundamentals  
-- Achieved a 95% student pass rate
+🔗 [github.com/wizzfi1/FullStack_DevSec](https://github.com/wizzfi1/FullStack_DevSec)
 
 ---
 
-## 🎓 Education & Certifications
+### Wisdom's Order Fellow
+*Order lifecycle management with integrity*
 
-**B.Eng. Computer Engineering** — Federal University of Technology, Minna  
-Second Class Upper
+Production backend for real-time order tracking with a full onboarding and approval workflow.
 
-**Certifications**
-- Microsoft Certified: **Azure AI Engineer Associate**
-- Microsoft Certified: **Azure Developer Associate**
-- Kubernetes and Cloud Native Associate (KCNA)
-- Microsoft Certified: Azure Fundamentals
-- Azure AI Fundamentals
-- GitHub Foundations
-- Foundational C# with Microsoft
-- Cisco Certified Network Associate (CCNA)
+**Stack:** Node.js · PostgreSQL · WebSockets · JWT
+
+- Secure webhook-driven architecture with shared-secret authentication
+- Registration → OTP → KYC → admin approval gating
+- Strict relational order lifecycle transitions enforced at the data layer
 
 ---
 
-## 🌱 Current Interests
+## 🛠️ Core Stack
 
-Cloud Infrastructure · Automation · Monitoring · DevSecOps ·  
-Open Source · Platform Engineering · Generative AI in DevOps
+**Backend:** Node.js (Express, NestJS) · TypeScript · Python (Flask) · C# (.NET) · REST APIs · WebSockets · Event-Driven Architecture
+
+**Databases:** PostgreSQL · MongoDB · Redis · Sequelize ORM · BullMQ
+
+**DevOps & Cloud:** Docker · Kubernetes (K3s, AKS) · Helm · Terraform · Ansible · AWS · Azure · GitHub Actions · Azure DevOps
+
+**Observability:** Prometheus · Grafana · Sentry · Structured Logging · Health Endpoints
+
+**Security:** JWT · RBAC · SAST · Secrets Scanning · Non-Root Containers · IaC Policy Enforcement
+
+**AI & Agents:** Agent-native development · Agent workflow design · Guardrail architecture · Code review for AI-generated output · Azure AI Services · Azure OpenAI
 
 ---
 
-## 🌍 Connect With Me
+## 🎓 Certifications
 
-- 🔗 LinkedIn: https://linkedin.com/in/wisdom-shaibu-tech  
+- Microsoft Certified: **Azure AI Engineer Associate** (2026)
+- Microsoft Certified: **Identity and Access Administrator Associate** (2026) — SC-300
+- Microsoft Certified: **Azure Developer Associate** (2025)
+- **Kubernetes and Cloud Native Associate** — KCNA (2025)
+- Microsoft Certified: Azure AI Fundamentals (2025)
+- Microsoft Certified: Azure Fundamentals (2025)
+- GitHub Foundations (2025)
+- Foundational C# with Microsoft (2025)
 
-> *“I don’t just push code — I design systems that survive production.”*
+---
+
+## 📚 Background
+
+**B.Eng. Computer Engineering** · Federal University of Technology, Minna
+
+Before engineering full-time, I spent two years at Sterling Bank processing high-volume transactions inside core banking systems — which gave me an unusually grounded appreciation for data integrity, auditability, and what "production" actually means under financial-grade load.
+
+---
+
+## 🌍 Let's connect
+
+- 🌐 [wisdom-portfolio-rho.vercel.app](https://wisdom-portfolio-rho.vercel.app)
+- 💼 [linkedin.com/in/wisdom-shaibu-tech](https://linkedin.com/in/wisdom-shaibu-tech)
+- 📧 shaibuwisdom@gmail.com
+- 🐙 [github.com/wizzfi1](https://github.com/wizzfi1)
